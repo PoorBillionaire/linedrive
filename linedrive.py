@@ -132,7 +132,7 @@ def check_schedule(league, team=None):
         if team:
             opponents = game["name"].lower().split(" at ")
             for team_name in opponents:
-                if team.lower() in team_name:
+                if " " + team.lower() in team_name:
                     scheduled_games.append(game)
                     return scheduled_games
         else:
