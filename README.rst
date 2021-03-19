@@ -12,6 +12,7 @@ Linedrive supports two things:
 To engage with this functionality, use the ``schedule`` and ``events`` command line arguments, which specify which 'mode' you would like to run the script in:
 
 **schedule**: schedule mode queries ESPN's scoreboard interface to obtain the latest schedule for the provided sports league.
+
 **events**: events mode accepts a league and team name, and provides real-time game play events.
 
 Supported Leagues
