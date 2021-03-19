@@ -70,7 +70,7 @@ Usage Examples
 
 **Events Mode**
 
-Continuing the example above, let's say we want to follow along with the Hokies/Gators game showing a status of ``STATUS_IN_PROGRESS``. 
+Continuing the example above, let's say we want to follow along with the Hokies/Gators game showing a status of ``STATUS_IN_PROGRESS``. Below is the syntax for doing so along with example output:
 
 ::
 
