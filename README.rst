@@ -32,7 +32,8 @@ This information is also provided in the ``--help`` menu:
 
 ::
 
-    poorbillionaire@computer:~$ python ./linedrive.py -h
+    python ./linedrive.py -h
+
     usage: linedrive.py [-h] -l {wnba,nba,ncaaw,ncaam,nfl,nhl} [-t TEAM] {events,schedule}
 
     positional arguments:
