@@ -1,6 +1,6 @@
 Linedrive
 ====================
-A Python client for interacting with ESPN's Gamecast service, allowing you to follow gameplay events at the command line.
+A Python client for interacting with ESPN's Gamecast service. Follow gameplay events at the command line.
 
 .. image:: example.gif
 
