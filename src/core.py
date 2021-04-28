@@ -5,6 +5,15 @@ import requests
 import websocket
 
 
+"""
+I used to think time was a thief.
+But you give before you take.
+Time is a gift. Every minute. Every second.
+
+Alice Through the Looking Glass
+"""
+
+
 def build_websocket_url():
     """Construct the Gamecast websocket URL, return it as a string."""
 

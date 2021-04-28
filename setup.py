@@ -9,7 +9,7 @@ with open(path.join(here, "README.rst"), encoding="utf-8") as f:
 
 setup(
     name="Linedrive",
-    version="1.0.1",
+    version="1.0.2",
     description="A Python client for interacting with ESPN's Gamecast service. Follow gameplay events at the command line.",
     long_description=long_description,
     url="https://github.com/PoorBillionaire/linedrive",
