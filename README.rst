@@ -104,6 +104,3 @@ Installation
 
 ``python setup.py install``
 
-...or...
-
-``pip install -r requirements.txt``
