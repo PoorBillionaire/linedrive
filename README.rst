@@ -48,7 +48,7 @@ Selecting a Team
 -----------------------
 I have not compiled a list of "supported teams" to choose from. I recommend that users of the script who want to follow along with game play events specify a team name without including the city name. More complete usage examples are provided below; however some examples of team names are:
 
-* grizzlies
+* suns
 * clippers
 * cowboys
 * jackrabbits
@@ -98,4 +98,12 @@ Continuing the example above, let's say we want to follow along with the Hokies/
 
 Installation
 --------------
+``pip install linedrive``
+
+...or...
+
+``python setup.py install``
+
+...or...
+
 ``pip install -r requirements.txt``
