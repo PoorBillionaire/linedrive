@@ -9,7 +9,7 @@ with open(path.join(here, "README.rst"), encoding="utf-8") as f:
 
 setup(
     name="Linedrive",
-    version="1.0.2",
+    version="2.0.0",
     description="A Python client for interacting with ESPN's Gamecast service. Follow gameplay events at the command line.",
     long_description=long_description,
     url="https://github.com/PoorBillionaire/linedrive",
@@ -22,9 +22,10 @@ setup(
     ],
     python_requires=">=3",
     keywords="NBA WNBA NCAA NCAAM NCAAW NHL NFL ESPN Gamecast",
-    packages=find_packages(),
+    package_dir={"linedrive":"linedrive"},
+    packages=["linedrive"],
     install_requires=["requests", "websocket-client"],
     entry_points={
-        "console_scripts":["linedrive.py=src.cli:main"]
+        "console_scripts":["linedrive=linedrive.main:main"]
     }
 )

@@ -32,9 +32,9 @@ This information is also provided in the ``--help`` menu:
 
 ::
 
-    python ./linedrive.py -h
+    linedrive -h
 
-    usage: linedrive.py [-h] -l {wnba,nba,ncaaw,ncaam,nfl,nhl} [-t TEAM] {events,schedule}
+    usage: linedrive [-h] -l {wnba,nba,ncaaw,ncaam,nfl,nhl} [-t TEAM] {events,schedule}
 
     positional arguments:
       {events,schedule}
@@ -60,7 +60,7 @@ Usage Examples
 
 ::
 
-    python ./linedrive.py schedule -l ncaam
+    linedrive schedule -l ncaam
 
 
     2021-03-19T16:15Z | STATUS_IN_PROGRESS | Virginia Tech Hokies at Florida Gators
@@ -77,7 +77,7 @@ Continuing the example above, let's say we want to follow along with the Hokies/
 
 ::
 
-    python ./linedrive.py events -l ncaam -t gators
+    linedrive events -l ncaam -t gators
         __    _____   ____________  ____  _____    ________
        / /   /  _/ | / / ____/ __ \/ __ \/  _/ |  / / ____/
       / /    / //  |/ / __/ / / / / /_/ // / | | / / __/   
