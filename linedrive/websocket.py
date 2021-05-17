@@ -1,8 +1,11 @@
+import re
 import json
 import zlib
 import base64
 import requests
+
 import websocket
+
 from linedrive import constants, utils
 
 
@@ -103,7 +106,6 @@ class GamecastWebsocket(websocket.WebSocketApp):
         game = utils.check_schedule(league, team)
         if game:
             self.channel = constants.CHANNELS[league] + game[0]["id"]
-            self.homeTeam = game[0]["shortName"].split(" @ ")[0]
-            self.awayTeam = game[0]["shortName"].split(" @ ")[1]
+            self.homeTeam, self.awayTeam = re.findall("\w+", game[0]["shortName"])
 
 
