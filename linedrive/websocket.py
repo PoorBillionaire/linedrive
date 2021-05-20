@@ -106,6 +106,8 @@ class GamecastWebsocket(websocket.WebSocketApp):
         game = utils.check_schedule(league, team)
         if game:
             self.channel = constants.CHANNELS[league] + game[0]["id"]
-            self.homeTeam, self.awayTeam = re.findall("\w+", game[0]["shortName"])
+            teams = re.findall("\w+", game[0]["shortName"])
+            self.awayTeam = teams[0]
+            self.homeTeam = teams[1]
 
 
